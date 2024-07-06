@@ -2,6 +2,8 @@ public class javacode {
 
     public static void main(String[] args) {
         System.out.println("Hi My name is suyash ");
+        int x=add(2,4);
+        int y= op(10,5);
 
     }
     public static int add (int a,int b) {
@@ -10,7 +12,7 @@ public class javacode {
         return add;
 
     }
-    public int op(int a,int b){
+    public static int op(int a,int b){
         System.out.println("This is operation on int");
         int x=a-b;
         return x;
